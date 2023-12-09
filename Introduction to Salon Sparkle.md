@@ -10,20 +10,20 @@ Technologies : Java, Firebase Database
 
 <h3>📞 Customer Profile - Facilitate Appointment Booking:</h3>
 <ul>
-  <li>• Access comprehensive service details</li>
-  <li>• Utilize a search feature to identify preferred stylists</li>
-  <li>• Select desired services from an extensive menu</li>
-  <li>• Schedule appointments for specified dates</li>
-  <li>• Review and manage payment details seamlessly</li>
-  <li>• Generate detailed monthly service expense reports for efficient financial tracking. </li>
+  <li>Access comprehensive service details</li>
+  <li>Utilize a search feature to identify preferred stylists</li>
+  <li>Select desired services from an extensive menu</li>
+  <li>Schedule appointments for specified dates</li>
+  <li>Review and manage payment details seamlessly</li>
+  <li>Generate detailed monthly service expense reports for efficient financial tracking. </li>
 </ul>
   
 
 <h3>📑 Employee Profile - Handle appointments:</h3>
 <ul>
-  <li>• Access and review scheduled appointments to maintain an organized overview.</li>
-  <li>• Assign appropriate stylists to appointments, ensuring optimal service allocation.</li>
-  <li>• Administer the ability to delete appointments as necessary for schedule adjustments.</li>
-  <li>• Maintain service flexibility by updating and modifying offerings to align with client preferences.</li>
-  <li>• Generate comprehensive monthly progress reports to assess performance and facilitate strategic decision-making.</li>
+  <li>Access and review scheduled appointments to maintain an organized overview.</li>
+  <li>Assign appropriate stylists to appointments, ensuring optimal service allocation.</li>
+  <li>Administer the ability to delete appointments as necessary for schedule adjustments.</li>
+  <li>Maintain service flexibility by updating and modifying offerings to align with client preferences.</li>
+  <li>Generate comprehensive monthly progress reports to assess performance and facilitate strategic decision-making.</li>
 </ul>
