@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/saloan4"
+    tools:context=".ServicesCustomer">
+
+
+    <ImageView
+        android:id="@+id/hello"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="203dp"
+        android:layout_height="35dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/aladin"
+        android:text="SERVICES"
+        android:textColor="#000"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toStartOf="@+id/hello"
+        app:layout_constraintHorizontal_bias="0.318"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hello">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="#3BED97B9"
+            android:src="@drawable/cut" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="#3BED97B9"
+            android:src="@drawable/blow" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="#3BED97B9"
+            android:src="@drawable/facial" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="#3BED97B9"
+            android:src="@drawable/color" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_haircut_back"
+        android:layout_width="328dp"
+        android:layout_height="60dp"
+
+        android:layout_marginTop="216dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/haircut_background" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="9dp"
+        android:background="@color/black"
+        android:fontFamily="@font/aladin"
+        android:gravity="center"
+        android:text="Hair Cuts"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="9dp"
+        android:background="@color/teal_200"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="288dp"
+            android:background="@color/teal_200"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:id="@+id/scrollView2"
+                android:layout_width="367dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.489"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.795">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp">
+
+                            <TextView
+                                android:id="@+id/text_cut_1"
+                                android:layout_width="130dp"
+                                android:layout_height="wrap_content"
+                                android:text="Bob cut"
+                                android:textAlignment="center"
+                                android:textColor="#090808"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/text_cut_price_1"
+                                android:layout_width="123.3dp"
+                                android:layout_height="wrap_content"
+                                android:text="1000 LKR"
+                                android:textAlignment="center"
+                                android:textColor="#070707"
+                                android:textSize="20sp" />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="15dp">
+
+                            <TextView
+                                android:id="@+id/text_cut_2"
+                                android:layout_width="130dp"
+                                android:layout_height="wrap_content"
+                                android:text="Messy Wob"
+                                android:textAlignment="center"
+                                android:textColor="#090808"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/text_cut_price_2"
+                                android:layout_width="123.3dp"
+                                android:layout_height="wrap_content"
+                                android:text="1500 LKR"
+                                android:textAlignment="center"
+                                android:textColor="#070707"
+                                android:textSize="20sp" />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="15dp">
+
+                            <TextView
+                                android:id="@+id/text_cut_3"
+                                android:layout_width="130dp"
+                                android:layout_height="wrap_content"
+                                android:text="Long Layer"
+                                android:textAlignment="center"
+                                android:textColor="#090808"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/text_cut_price_3"
+                                android:layout_width="123.3dp"
+                                android:layout_height="wrap_content"
+                                android:text="1000 LKR"
+                                android:textAlignment="center"
+                                android:textColor="#070707"
+                                android:textSize="20sp" />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="15dp">
+
+                            <TextView
+                                android:id="@+id/text_cut_4"
+                                android:layout_width="130dp"
+                                android:layout_height="wrap_content"
+                                android:text="Short Layer"
+                                android:textAlignment="center"
+                                android:textColor="#090808"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/text_cut_price_4"
+                                android:layout_width="123.3dp"
+                                android:layout_height="wrap_content"
+                                android:text="2000 LKR"
+                                android:textAlignment="center"
+                                android:textColor="#070707"
+                                android:textSize="20sp" />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="15dp">
+
+                            <TextView
+                                android:id="@+id/text_cut_5"
+                                android:layout_width="130dp"
+                                android:layout_height="wrap_content"
+                                android:text="Short Pixie"
+                                android:textAlignment="center"
+                                android:textColor="#090808"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/text_cut_price_5"
+                                android:layout_width="123.3dp"
+                                android:layout_height="wrap_content"
+                                android:text="1500 LKR"
+                                android:textAlignment="center"
+                                android:textColor="#070707"
+                                android:textSize="20sp" />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="15dp">
+
+                            <TextView
+                                android:id="@+id/text_cut_6"
+                                android:layout_width="130dp"
+                                android:layout_height="wrap_content"
+                                android:text="Curtain Bangs"
+                                android:textAlignment="center"
+                                android:textColor="#090808"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/text_cut_price_6"
+                                android:layout_width="123.3dp"
+                                android:layout_height="wrap_content"
+                                android:text="1000 LKR"
+                                android:textAlignment="center"
+                                android:textColor="#070707"
+                                android:textSize="20sp" />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="15dp">
+
+                            <TextView
+                                android:id="@+id/text_cut_7"
+                                android:layout_width="130dp"
+                                android:layout_height="wrap_content"
+                                android:text="Short Bangs"
+                                android:textAlignment="center"
+                                android:textColor="#090808"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/text_cut_price_7"
+                                android:layout_width="123.3dp"
+                                android:layout_height="wrap_content"
+                                android:text="1500 LKR"
+                                android:textAlignment="center"
+                                android:textColor="#070707"
+                                android:textSize="20sp" />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="15dp">
+
+                            <TextView
+                                android:id="@+id/text_cut_8"
+                                android:layout_width="200dp"
+                                android:layout_height="match_parent"
+                                android:text="Messy Look"
+                                android:textAlignment="center"
+                                android:textColor="#090808"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/text_cut_price_8"
+                                android:layout_width="167dp"
+                                android:layout_height="match_parent"
+                                android:text="1000 LKR"
+                                android:textAlignment="center"
+                                android:textColor="#070707"
+                                android:textSize="20sp" />
+
+                        </TableRow>
+
+
+                    </TableLayout>
+                </LinearLayout>
+            </ScrollView>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:onClick="AddCart"
+        android:text="SCHEDULE A TIME"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        app:cornerRadius="20dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+
+    <!--    <Button-->
+    <!--        android:id="@+id/loginButton"-->
+    <!--        android:layout_width="350dp"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:layout_marginStart="30dp"-->
+    <!--        android:layout_marginTop="36dp"-->
+    <!--        android:layout_marginEnd="31dp"-->
+    <!--        android:background="@drawable/button"-->
+    <!--        android:text="Schedule Your Time Now"-->
+    <!--        android:textColor="#FFF"-->
+    <!--        android:textSize="18dp"-->
+    <!--        android:textStyle="bold"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="1.0"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/cardView" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/saloan4"
+    android:orientation="vertical"
+    tools:context=".DashBoard">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp">
+
+        <ImageView
+            android:id="@+id/hello"
+            android:layout_width="133dp"
+            android:layout_height="91dp"
+            android:layout_marginTop="-5dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hello"
+            android:layout_marginTop="2dp"
+            android:fontFamily="sans-serif-black"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="26dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/profile" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="-30dp">
+
+        <RelativeLayout
+            android:id="@+id/rl1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/backend" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/stylist" />
+
+            <TextView
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="220dp"
+                android:fontFamily="@font/aladin"
+                android:gravity="center"
+                android:text="STYLIST"
+                android:textColor="#d703082b"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/backend" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/time" />
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="220dp"
+                android:fontFamily="@font/aladin"
+                android:gravity="center"
+                android:text="SCHEDULE"
+                android:textColor="#d703082b"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="-50dp">
+
+
+        <RelativeLayout
+            android:id="@+id/rl3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp">
+
+            <ImageView
+                android:layout_width="385dp"
+                android:layout_height="298dp"
+                android:layout_marginLeft="3dp"
+                android:src="@drawable/bg2" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="68.5dp"
+                android:src="@drawable/service" />
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="136dp"
+                android:fontFamily="@font/aladin"
+                android:gravity="center"
+                android:text="SERVICES"
+                android:textColor="#d703082b"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
