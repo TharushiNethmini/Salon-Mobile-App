@@ -1,12 +1,14 @@
-:love_hotel:<h1> Salon Sparkle Mobile Application</h1>
+<h1>🏩💇 Salon Sparkle Mobile Application</h1>
 
 <p> "Sparkle" is a sophisticated mobile salon app equipped with comprehensive appointment scheduling functionality. Designed to seamlessly connect clients with local salons in an online platform, the app enables users to browse a variety of services and easily book appointments with skilled beauticians. In the event that a client needs to cancel or reschedule an appointment, the process involves a direct contact with the salon via phone call.
 
 The primary objective of this project is to efficiently organize salon time slots, enhancing the overall customer experience. By showcasing a diverse array of services, we aim to captivate the interest of an expanding audience of women in the realm of fashion. Our ultimate goal is to empower women by helping them achieve a positive transformation, boosting their self-esteem and, consequently, their overall happiness. The app's functionality extends to allowing users to reserve preferred time slots, thereby minimizing wait times and optimizing the overall salon experience. </p>
 
-<h3>The functionalities are outlined as follows:</h3>
+Technologies : Java, Firebase Database
 
-:haircut:<h3>Facilitate Appointment Booking:</h3>
+<h2>The functionalities are outlined as follows:</h3>
+
+<h3>📞 Customer Profile - Facilitate Appointment Booking:</h3>
 <ul>
   <li>• Access comprehensive service details</li>
   <li>• Utilize a search feature to identify preferred stylists</li>
@@ -17,7 +19,7 @@ The primary objective of this project is to efficiently organize salon time slot
 </ul>
   
 
-:bookmark_tabs: <h3>Handle appointments:</h3>
+<h3>📑 Employee Profile - Handle appointments:</h3>
 <ul>
   <li>• Access and review scheduled appointments to maintain an organized overview.</li>
   <li>• Assign appropriate stylists to appointments, ensuring optimal service allocation.</li>
